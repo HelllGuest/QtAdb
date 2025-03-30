@@ -1,0 +1,43 @@
+# Build directories
+build/
+/build-*/
+*/build-*
+release/
+debug/
+
+# Qt-specific files
+*.user
+*.pro.user.*
+.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qm
+*.qch
+*.qmlc
+*.jsc
+
+# Qt Creator files
+*.autosave
+*.qmlproject.user
+*.qmlproject.user.*
+CMakeLists.txt.user*
+*.creator.user
+*.creator.user.*
+
+# Compilation artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.prl
+
+# Qt-specific cache files
+.qmake.cache
+.qmake.stash
+Makefile.*
+compile_commands.json
